@@ -8,8 +8,7 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
 
 #### Estou desenvolvendo ao poucos conforme o tempo
 
-================================================================================================================================================
-================================================================================================================================================
+<hr>
 
 #### Game: The Traveller
 #### Pseudo: O Viajante do Tempo
@@ -29,12 +28,13 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
   <li>1. Criação da floresta</li>
   <li>2. Inserção de inimigos</li>
 </o>
-================================================================================================================================================
-================================================================================================================================================
+
+<hr>
 
 <br><br>
 <img src="https://s18.postimg.org/ydp6mtxhl/Sem-_T_tulo-1.png" width="250" height="350">
-<img src="https://s18.postimg.org/uvi8nnxt5/jungl.png" width="250" height="350">
+<br><br>
+<img src="https://s18.postimg.org/uvi8nnxt5/jungl.png" width="700" height="350">
 <br><br>
 <img src="https://s18.postimg.org/6b17fvazt/image.png" width="600" height="350">
 <img src="https://s18.postimg.org/5y9t9mnk9/image.png" width="900" height="300">
