@@ -24,11 +24,16 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
   <li>1. Adaptação dos assets ao projeto</li>
   <li>2. Vetorização das imagens utilizadas do tileset</li>
   <li>3. Conversão dos sprites para uso na godot engine</li>
-  <li>4. Desenvolvimento da movimentação, gravidade e força de aceleração para o mundo</li>  
+  <li>4. Desenvolvimento da movimentação (eventos) e suas animações, gravidade e força de aceleração para o mundo</li> 
 </ol>
 
 ## MOVIMENTOS E O TECLADO
 <p>Por enquanto foram dados os movimento: jump, esquera e direita. As teclas utilizadas são as SETAS DO TECLADO e a LETRA "Z"</p>
+<o>
+  <li>JUMP: letra Z</li>
+  <li>ESQUERDA: seta esquerda</li>
+  <li>DIREITA: seta direita</li>
+</o>
 
 ## <p>Próximas versões</p>
 <o>
