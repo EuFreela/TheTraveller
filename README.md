@@ -33,7 +33,8 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
 ## <p>Próximas versões</p>
 <o>
   <li>1. Criação da floresta</li>
-  <li>2. Inserção de inimigos</li>
+  <li>2. Inserção de outros movimentos e suas animações</li>
+  <li>3. Inserção de inimigos</li>
 </o>
 
 <hr>
