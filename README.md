@@ -9,7 +9,7 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
 #### Existem 3 tiles para o projeto open pixel entitulados de jungle e villarage. Neste projeto The Traveller - The Adventure in Jungle, estou usando os tiles de Jungle entre outros free para não identificar-se muito com o projeto da open pixel.
 
 #### Estou desenvolvendo ao poucos conforme o tempo
-
+<p>Por enquanto a linguagem utilizada para desenvolvimento é a GDScript, muito semelhante ao python porém com algumas limitações referentes a outras linguagens. Sinto falta da orientação a objeto. Na versã mais nova da Gogot (3.0), foi disponibilizado a versão com C#, porém, minha máquina ainda há limitações com o SO que estou usando e não tenho experimentado esta opção. Além disso, vi na documentação da Godot que é possível extensão de módulos com C++. Para GDScript, a criação de classe possue uma pequena limitação para herança de objetos dos elementos que são criados. Há outra linguagem disponível de quarta geração, semelhante ao que utilizamos em blender entitulada de VS, não estou familializado com este tipo de segmento, até o momento estou usando linha de código mesmo</p>
 <hr>
 <hr>
 
