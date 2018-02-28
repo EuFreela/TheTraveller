@@ -27,6 +27,9 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
   <li>4. Desenvolvimento da movimentação, gravidade e força de aceleração para o mundo</li>  
 </ol>
 
+## MOVIMENTOS E O TECLADO
+<p>Por enquanto foram dados os movimento: jump, esquera e direita. As teclas utilizadas são as SETAS DO TECLADO e a LETRA "Z"</p>
+
 ## <p>Próximas versões</p>
 <o>
   <li>1. Criação da floresta</li>
