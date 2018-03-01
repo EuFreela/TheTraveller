@@ -1,0 +1,495 @@
+[gd_resource type="TileSet" load_steps=42 format=2]
+
+[ext_resource path="res://assets/tileset/jungle/water.png" type="Texture" id=1]
+[ext_resource path="res://assets/tileset/jungle/water-2.png" type="Texture" id=2]
+[ext_resource path="res://assets/tileset/jungle/wall-water-right.png" type="Texture" id=3]
+[ext_resource path="res://assets/tileset/jungle/wall-water-left.png" type="Texture" id=4]
+[ext_resource path="res://assets/tileset/jungle/ground-water-submerse.png" type="Texture" id=5]
+[ext_resource path="res://assets/tileset/jungle/blue.png" type="Texture" id=6]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-water.png" type="Texture" id=7]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-one.png" type="Texture" id=8]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-2.png" type="Texture" id=9]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-3.png" type="Texture" id=10]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-4.png" type="Texture" id=11]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-left-2.png" type="Texture" id=12]
+[ext_resource path="res://assets/tileset/jungle/ground-water.png" type="Texture" id=13]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-center.png" type="Texture" id=14]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-right-2.png" type="Texture" id=15]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-all.png" type="Texture" id=16]
+[ext_resource path="res://assets/tileset/jungle/bridge/bridge-ground.png" type="Texture" id=17]
+[ext_resource path="res://assets/tileset/jungle/plants/tree-write.png" type="Texture" id=18]
+[ext_resource path="res://assets/tileset/jungle/plants/tree-left.png" type="Texture" id=19]
+[ext_resource path="res://assets/tileset/jungle/bridge/bridge-front-2.png" type="Texture" id=20]
+[ext_resource path="res://assets/tileset/jungle/ground-water-left.png" type="Texture" id=21]
+[ext_resource path="res://assets/tileset/jungle/ground-water-right.png" type="Texture" id=22]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-2.png" type="Texture" id=23]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-3.png" type="Texture" id=24]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-5.png" type="Texture" id=25]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-4.png" type="Texture" id=26]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center.png" type="Texture" id=27]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 43.6882, 114.626 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 49.4915, 113.657 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 56.5997, 13.7591 )
+
+[sub_resource type="RectangleShape2D" id=14]
+
+custom_solver_bias = 0.0
+extents = Vector2( 47.7002, 17.0739 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 42.3503, 61.1466 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 60.325, 10 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 102.496, 10 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20.9192, 19.6669 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20.2278, 80.5039 )
+
+[sub_resource type="RectangleShape2D" id=10]
+
+custom_solver_bias = 0.0
+extents = Vector2( 187.276, 22.7402 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 71.1683, 10 )
+
+[sub_resource type="RectangleShape2D" id=12]
+
+custom_solver_bias = 0.0
+extents = Vector2( 56.5795, 10 )
+
+[sub_resource type="RectangleShape2D" id=15]
+
+custom_solver_bias = 0.0
+extents = Vector2( 143.479, 10 )
+
+[sub_resource type="RectangleShape2D" id=13]
+
+custom_solver_bias = 0.0
+extents = Vector2( 55.0815, 10 )
+
+[resource]
+
+0/name = "water-1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 96, 228 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 48, 114 )
+0/navigation_offset = Vector2( 48, 114 )
+0/shapes = [  ]
+1/name = "water-2"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 96, 228 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 48, 114 )
+1/navigation_offset = Vector2( 48, 114 )
+1/shapes = [  ]
+2/name = "ground-water-1"
+2/texture = ExtResource( 13 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 96, 228 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 48, 114 )
+2/navigation_offset = Vector2( 48, 114 )
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 47.893, 19.208 )
+} ]
+3/name = "ground-water-2"
+3/texture = ExtResource( 21 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 96, 228 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 48, 114 )
+3/navigation_offset = Vector2( 48, 114 )
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 49.6532, 20.3857 )
+} ]
+4/name = "ground-water-3"
+4/texture = ExtResource( 22 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 96, 228 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 48, 114 )
+4/navigation_offset = Vector2( 48, 114 )
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 46.2477, 21.2503 )
+} ]
+5/name = "ground-water-4"
+5/texture = ExtResource( 23 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 96, 228 )
+5/is_autotile = false
+5/occluder_offset = Vector2( 48, 114 )
+5/navigation_offset = Vector2( 48, 114 )
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.3564, 20.9698 )
+} ]
+6/name = "ground-water-5"
+6/texture = ExtResource( 24 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 96, 228 )
+6/is_autotile = false
+6/occluder_offset = Vector2( 48, 114 )
+6/navigation_offset = Vector2( 48, 114 )
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 47.9999, 19.9848 )
+} ]
+7/name = "ground-water-6"
+7/texture = ExtResource( 25 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 96, 228 )
+7/is_autotile = false
+7/occluder_offset = Vector2( 48, 114 )
+7/navigation_offset = Vector2( 48, 114 )
+7/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.5082, 19.9848 )
+} ]
+8/name = "ground-water-7"
+8/texture = ExtResource( 26 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 96, 228 )
+8/is_autotile = false
+8/occluder_offset = Vector2( 48, 114 )
+8/navigation_offset = Vector2( 48, 114 )
+8/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.5082, 19.4767 )
+} ]
+9/name = "ground-water-8"
+9/texture = ExtResource( 27 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 96, 228 )
+9/is_autotile = false
+9/occluder_offset = Vector2( 48, 114 )
+9/navigation_offset = Vector2( 48, 114 )
+9/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 46.9836, 19.9848 )
+} ]
+10/name = "ground-water-9"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 96, 228 )
+10/is_autotile = false
+10/occluder_offset = Vector2( 48, 114 )
+10/navigation_offset = Vector2( 48, 114 )
+10/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48, 114 )
+} ]
+11/name = "ground-water-10"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 96, 228 )
+11/is_autotile = false
+11/occluder_offset = Vector2( 48, 114 )
+11/navigation_offset = Vector2( 48, 114 )
+11/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48, 114 )
+} ]
+12/name = "ground-water-11"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 96, 228 )
+12/is_autotile = false
+12/occluder_offset = Vector2( 48, 114 )
+12/navigation_offset = Vector2( 48, 114 )
+12/shapes = [  ]
+13/name = "ground-water-12"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 96, 228 )
+13/is_autotile = false
+13/occluder_offset = Vector2( 48, 114 )
+13/navigation_offset = Vector2( 48, 114 )
+13/shapes = [  ]
+14/name = "ground-water-13"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 192, 152 )
+14/is_autotile = false
+14/occluder_offset = Vector2( 96, 76 )
+14/navigation_offset = Vector2( 96, 76 )
+14/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 134.559, 19.5721 )
+} ]
+15/name = "ground-brown-1"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 96, 228 )
+15/is_autotile = false
+15/occluder_offset = Vector2( 48, 114 )
+15/navigation_offset = Vector2( 48, 114 )
+15/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 47.9917, 20.7154 )
+} ]
+16/name = "ground-brown-2"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 384, 228 )
+16/is_autotile = false
+16/occluder_offset = Vector2( 192, 114 )
+16/navigation_offset = Vector2( 192, 114 )
+16/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 47.512, 122.987 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 151.212, 31.0406 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 237.628, 192.12 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 279.107, 125.753 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 363.45, 146.492 )
+} ]
+17/name = "ground-brown-3"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 384, 76 )
+17/is_autotile = false
+17/occluder_offset = Vector2( 192, 38 )
+17/navigation_offset = Vector2( 192, 38 )
+17/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 193.383, 48.3699 )
+} ]
+18/name = "ground-brown-4"
+18/texture = ExtResource( 11 )
+18/tex_offset = Vector2( 0, 0 )
+18/modulate = Color( 1, 1, 1, 1 )
+18/region = Rect2( 0, 0, 192, 190 )
+18/is_autotile = false
+18/occluder_offset = Vector2( 96, 95 )
+18/navigation_offset = Vector2( 96, 95 )
+18/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 116.841, 129.388 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 58.4856, 34.5601 )
+} ]
+19/name = "ground-brown-left"
+19/texture = ExtResource( 12 )
+19/tex_offset = Vector2( 0, 0 )
+19/modulate = Color( 1, 1, 1, 1 )
+19/region = Rect2( 0, 0, 96, 228 )
+19/is_autotile = false
+19/occluder_offset = Vector2( 48, 114 )
+19/navigation_offset = Vector2( 48, 114 )
+19/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.5631, 22.2161 )
+} ]
+20/name = "ground-brown-center"
+20/texture = ExtResource( 14 )
+20/tex_offset = Vector2( 0, 0 )
+20/modulate = Color( 1, 1, 1, 1 )
+20/region = Rect2( 0, 0, 96, 228 )
+20/is_autotile = false
+20/occluder_offset = Vector2( 48, 114 )
+20/navigation_offset = Vector2( 48, 114 )
+20/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 47.4369, 21.653 )
+} ]
+21/name = "ground-brown-right"
+21/texture = ExtResource( 15 )
+21/tex_offset = Vector2( 0, 0 )
+21/modulate = Color( 1, 1, 1, 1 )
+21/region = Rect2( 0, 0, 96, 228 )
+21/is_autotile = false
+21/occluder_offset = Vector2( 48, 114 )
+21/navigation_offset = Vector2( 48, 114 )
+21/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.5631, 21.0899 )
+} ]
+22/name = "ground-brown-color"
+22/texture = ExtResource( 16 )
+22/tex_offset = Vector2( 0, 0 )
+22/modulate = Color( 1, 1, 1, 1 )
+22/region = Rect2( 0, 0, 96, 228 )
+22/is_autotile = false
+22/occluder_offset = Vector2( 48, 114 )
+22/navigation_offset = Vector2( 48, 114 )
+22/shapes = [  ]
+23/name = "bridge-ground"
+23/texture = ExtResource( 17 )
+23/tex_offset = Vector2( 0, 0 )
+23/modulate = Color( 1, 1, 1, 1 )
+23/region = Rect2( 0, 0, 288, 76 )
+23/is_autotile = false
+23/occluder_offset = Vector2( 144, 38 )
+23/navigation_offset = Vector2( 144, 38 )
+23/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 15 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 144.136, 51.1353 )
+} ]
+24/name = "tree-right"
+24/texture = ExtResource( 18 )
+24/tex_offset = Vector2( 0, 0 )
+24/modulate = Color( 1, 1, 1, 1 )
+24/region = Rect2( 0, 0, 384, 266 )
+24/is_autotile = false
+24/occluder_offset = Vector2( 192, 133 )
+24/navigation_offset = Vector2( 192, 133 )
+24/shapes = [  ]
+25/name = "tree-left"
+25/texture = ExtResource( 19 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 0, 0, 384, 266 )
+25/is_autotile = false
+25/occluder_offset = Vector2( 192, 133 )
+25/navigation_offset = Vector2( 192, 133 )
+25/shapes = [  ]
+26/name = "bridge-background"
+26/texture = ExtResource( 17 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 0, 0, 288, 76 )
+26/is_autotile = false
+26/occluder_offset = Vector2( 144, 38 )
+26/navigation_offset = Vector2( 144, 38 )
+26/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 143.309, 49.8926 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 240.294, 56.9533 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 48.7955, 56.9533 )
+} ]
+27/name = "bridge-front-2"
+27/texture = ExtResource( 20 )
+27/tex_offset = Vector2( 0, 0 )
+27/modulate = Color( 1, 1, 1, 1 )
+27/region = Rect2( 0, 0, 288, 76 )
+27/is_autotile = false
+27/occluder_offset = Vector2( 144, 38 )
+27/navigation_offset = Vector2( 144, 38 )
+27/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 145.263, 52.3023 )
+} ]
+

@@ -1,0 +1,603 @@
+[gd_scene load_steps=41 format=2]
+
+[ext_resource path="res://assets/tileset/jungle/water.png" type="Texture" id=1]
+[ext_resource path="res://assets/tileset/jungle/water-2.png" type="Texture" id=2]
+[ext_resource path="res://assets/tileset/jungle/ground-water.png" type="Texture" id=3]
+[ext_resource path="res://assets/tileset/jungle/ground-water-left.png" type="Texture" id=4]
+[ext_resource path="res://assets/tileset/jungle/ground-water-right.png" type="Texture" id=5]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-2.png" type="Texture" id=6]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-3.png" type="Texture" id=7]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-5.png" type="Texture" id=8]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center-4.png" type="Texture" id=9]
+[ext_resource path="res://assets/tileset/jungle/ground-water-center.png" type="Texture" id=10]
+[ext_resource path="res://assets/tileset/jungle/wall-water-right.png" type="Texture" id=11]
+[ext_resource path="res://assets/tileset/jungle/wall-water-left.png" type="Texture" id=12]
+[ext_resource path="res://assets/tileset/jungle/ground-water-submerse.png" type="Texture" id=13]
+[ext_resource path="res://assets/tileset/jungle/blue.png" type="Texture" id=14]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-water.png" type="Texture" id=15]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-one.png" type="Texture" id=16]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-2.png" type="Texture" id=17]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-3.png" type="Texture" id=18]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-4.png" type="Texture" id=19]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-left-2.png" type="Texture" id=20]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-center.png" type="Texture" id=21]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-right-2.png" type="Texture" id=22]
+[ext_resource path="res://assets/tileset/jungle/ground-brown-all.png" type="Texture" id=23]
+[ext_resource path="res://assets/tileset/jungle/bridge/bridge-ground.png" type="Texture" id=24]
+[ext_resource path="res://assets/tileset/jungle/bridge/bridge-front-2.png" type="Texture" id=25]
+[ext_resource path="res://assets/tileset/jungle/plants/tree-write.png" type="Texture" id=26]
+[ext_resource path="res://assets/tileset/jungle/plants/tree-left.png" type="Texture" id=27]
+
+[sub_resource type="RectangleShape2D" id=14]
+
+custom_solver_bias = 0.0
+extents = Vector2( 47.7002, 17.0739 )
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 43.6882, 114.626 )
+
+[sub_resource type="RectangleShape2D" id=2]
+
+custom_solver_bias = 0.0
+extents = Vector2( 49.4915, 113.657 )
+
+[sub_resource type="RectangleShape2D" id=3]
+
+custom_solver_bias = 0.0
+extents = Vector2( 56.5997, 13.7591 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 42.3503, 61.1466 )
+
+[sub_resource type="RectangleShape2D" id=6]
+
+custom_solver_bias = 0.0
+extents = Vector2( 60.325, 10 )
+
+[sub_resource type="RectangleShape2D" id=7]
+
+custom_solver_bias = 0.0
+extents = Vector2( 102.496, 10 )
+
+[sub_resource type="RectangleShape2D" id=8]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20.9192, 19.6669 )
+
+[sub_resource type="RectangleShape2D" id=9]
+
+custom_solver_bias = 0.0
+extents = Vector2( 20.2278, 80.5039 )
+
+[sub_resource type="RectangleShape2D" id=10]
+
+custom_solver_bias = 0.0
+extents = Vector2( 187.276, 22.7402 )
+
+[sub_resource type="RectangleShape2D" id=11]
+
+custom_solver_bias = 0.0
+extents = Vector2( 71.1683, 10 )
+
+[sub_resource type="RectangleShape2D" id=12]
+
+custom_solver_bias = 0.0
+extents = Vector2( 56.5795, 10 )
+
+[sub_resource type="RectangleShape2D" id=15]
+
+custom_solver_bias = 0.0
+extents = Vector2( 288.604, 10 )
+
+[node name="jungle" type="Node2D"]
+
+_sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
+__meta__ = {
+"_edit_horizontal_guides_": [ 1.87024, 0.9293 ]
+}
+
+[node name="water" type="Node2D" parent="." index="0"]
+
+editor/display_folded = true
+position = Vector2( -104.177, 279.383 )
+
+[node name="water-1" type="Sprite" parent="water" index="0"]
+
+position = Vector2( 149.383, 112.636 )
+texture = ExtResource( 1 )
+
+[node name="water-2" type="Sprite" parent="water" index="1"]
+
+position = Vector2( 247.344, 112.857 )
+texture = ExtResource( 2 )
+
+[node name="ground-water" type="Node2D" parent="." index="1"]
+
+editor/display_folded = true
+
+[node name="ground-water-1" type="Sprite" parent="ground-water" index="0"]
+
+editor/display_folded = true
+position = Vector2( 258.25, 112.587 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-1/StaticBody2D" index="0"]
+
+position = Vector2( -0.106964, -94.792 )
+shape = SubResource( 14 )
+
+[node name="ground-water-2" type="Sprite" parent="ground-water" index="1"]
+
+editor/display_folded = true
+position = Vector2( 357.516, 112.587 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-2/StaticBody2D" index="0"]
+
+position = Vector2( 1.6532, -93.6143 )
+shape = SubResource( 14 )
+
+[node name="ground-water-3" type="Sprite" parent="ground-water" index="2"]
+
+editor/display_folded = true
+position = Vector2( 460.279, 112.587 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-3/StaticBody2D" index="0"]
+
+position = Vector2( -1.75232, -92.7497 )
+shape = SubResource( 14 )
+
+[node name="ground-water-4" type="Sprite" parent="ground-water" index="3"]
+
+editor/display_folded = true
+position = Vector2( 560.733, 112.587 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-4" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-4/StaticBody2D" index="0"]
+
+position = Vector2( 0.356384, -93.0302 )
+shape = SubResource( 14 )
+
+[node name="ground-water-5" type="Sprite" parent="ground-water" index="4"]
+
+editor/display_folded = true
+position = Vector2( 661.187, 112.587 )
+texture = ExtResource( 7 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-5" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-5/StaticBody2D" index="0"]
+
+position = Vector2( -6.10352e-05, -94.0152 )
+shape = SubResource( 14 )
+
+[node name="ground-water-6" type="Sprite" parent="ground-water" index="5"]
+
+editor/display_folded = true
+position = Vector2( 761.641, 112.587 )
+texture = ExtResource( 8 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-6" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-6/StaticBody2D" index="0"]
+
+position = Vector2( 0.508179, -94.0152 )
+shape = SubResource( 14 )
+
+[node name="ground-water-7" type="Sprite" parent="ground-water" index="6"]
+
+editor/display_folded = true
+position = Vector2( 865.559, 112.587 )
+texture = ExtResource( 9 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-7" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-7/StaticBody2D" index="0"]
+
+position = Vector2( 0.50824, -94.5233 )
+shape = SubResource( 14 )
+
+[node name="ground-water-8" type="Sprite" parent="ground-water" index="7"]
+
+editor/display_folded = true
+position = Vector2( 968.323, 112.587 )
+texture = ExtResource( 10 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-8" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-8/StaticBody2D" index="0"]
+
+position = Vector2( -1.01642, -94.0152 )
+shape = SubResource( 14 )
+
+[node name="ground-water-9" type="Sprite" parent="ground-water" index="8"]
+
+editor/display_folded = true
+position = Vector2( 1068.58, 114.862 )
+texture = ExtResource( 11 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-9" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-9/StaticBody2D" index="0"]
+
+shape = SubResource( 1 )
+
+[node name="ground-water-10" type="Sprite" parent="ground-water" index="9"]
+
+editor/display_folded = true
+position = Vector2( 1173.41, 116.482 )
+texture = ExtResource( 12 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-10" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-10/StaticBody2D" index="0"]
+
+shape = SubResource( 2 )
+
+[node name="ground-water-11" type="Sprite" parent="ground-water" index="10"]
+
+position = Vector2( 1278.92, 117.206 )
+texture = ExtResource( 13 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="ground-water-12" type="Sprite" parent="ground-water" index="11"]
+
+position = Vector2( 1386.47, 116.6 )
+texture = ExtResource( 14 )
+_sections_unfolded = [ "Animation", "Offset", "Transform", "Visibility" ]
+
+[node name="ground-water-13" type="Sprite" parent="ground-water" index="12"]
+
+editor/display_folded = true
+position = Vector2( 1540.64, 153.032 )
+texture = ExtResource( 15 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-water/ground-water-13" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-water/ground-water-13/StaticBody2D" index="0"]
+
+position = Vector2( 38.5592, -56.4279 )
+shape = SubResource( 3 )
+
+[node name="ground-brown" type="Node2D" parent="." index="2"]
+
+editor/display_folded = true
+
+[node name="ground-brown-1" type="Sprite" parent="ground-brown" index="0"]
+
+editor/display_folded = true
+position = Vector2( -47.4179, 111.369 )
+texture = ExtResource( 16 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-1" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-1/StaticBody2D" index="0"]
+
+position = Vector2( -0.00827026, -93.2846 )
+shape = SubResource( 14 )
+
+[node name="ground-brown-2" type="Sprite" parent="ground-brown" index="1"]
+
+editor/display_folded = true
+position = Vector2( 740.636, 358.387 )
+texture = ExtResource( 17 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-2" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-2/StaticBody2D" index="0"]
+
+position = Vector2( -144.488, 8.98724 )
+shape = SubResource( 5 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ground-brown/ground-brown-2/StaticBody2D" index="1"]
+
+position = Vector2( -40.7884, -82.9594 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="ground-brown/ground-brown-2/StaticBody2D" index="2"]
+
+position = Vector2( 45.6276, 78.1201 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="ground-brown/ground-brown-2/StaticBody2D" index="3"]
+
+position = Vector2( 87.1074, 11.7526 )
+shape = SubResource( 8 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="ground-brown/ground-brown-2/StaticBody2D" index="4"]
+
+position = Vector2( 171.45, 32.4924 )
+shape = SubResource( 9 )
+one_way_collision = true
+
+[node name="ground-brown-3" type="Sprite" parent="ground-brown" index="2"]
+
+editor/display_folded = true
+position = Vector2( -1065.73, 17.0983 )
+texture = ExtResource( 18 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-3" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-3/StaticBody2D" index="0"]
+
+position = Vector2( 1.38269, 10.3699 )
+shape = SubResource( 10 )
+
+[node name="ground-brown-4" type="Sprite" parent="ground-brown" index="3"]
+
+editor/display_folded = true
+position = Vector2( 1051.23, 377.676 )
+texture = ExtResource( 19 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-4" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-4/StaticBody2D" index="0"]
+
+position = Vector2( 20.8413, 34.3882 )
+shape = SubResource( 11 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ground-brown/ground-brown-4/StaticBody2D" index="1"]
+
+position = Vector2( -37.5144, -60.4399 )
+shape = SubResource( 12 )
+
+[node name="ground-brown-left" type="Sprite" parent="ground-brown" index="4"]
+
+editor/display_folded = true
+position = Vector2( -146.571, 109.469 )
+texture = ExtResource( 20 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-left" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-left/StaticBody2D" index="0"]
+
+position = Vector2( 0.563095, -91.7839 )
+shape = SubResource( 14 )
+
+[node name="ground-brown-center" type="Sprite" parent="ground-brown" index="5"]
+
+editor/display_folded = true
+position = Vector2( -247.878, 110.873 )
+texture = ExtResource( 21 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-center" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-center/StaticBody2D" index="0"]
+
+position = Vector2( -0.56308, -92.347 )
+shape = SubResource( 14 )
+
+[node name="ground-brown-right" type="Sprite" parent="ground-brown" index="6"]
+
+editor/display_folded = true
+position = Vector2( 49.5564, 112.221 )
+texture = ExtResource( 22 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="ground-brown/ground-brown-right" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ground-brown/ground-brown-right/StaticBody2D" index="0"]
+
+position = Vector2( 0.56311, -92.9101 )
+shape = SubResource( 14 )
+
+[node name="ground-brown-color" type="Sprite" parent="ground-brown" index="7"]
+
+position = Vector2( -248.041, 350.513 )
+texture = ExtResource( 23 )
+_sections_unfolded = [ "Animation", "Region" ]
+
+[node name="bridge" type="Node2D" parent="." index="3"]
+
+[node name="bridge-background" type="Sprite" parent="bridge" index="0"]
+
+position = Vector2( -439.88, -0.427765 )
+texture = ExtResource( 24 )
+
+[node name="bridge-front-2" type="Sprite" parent="bridge" index="1"]
+
+position = Vector2( -727.586, -0.589226 )
+texture = ExtResource( 25 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="bridge" index="2"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bridge/StaticBody2D" index="0"]
+
+position = Vector2( -582.813, 9.68594 )
+shape = SubResource( 15 )
+
+[node name="tree" type="Node2D" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( 0.164413, -0.164416 )
+
+[node name="tree-right" type="Sprite" parent="tree" index="0"]
+
+position = Vector2( 161.174, 718.752 )
+texture = ExtResource( 26 )
+
+[node name="tree-left" type="Sprite" parent="tree" index="1"]
+
+position = Vector2( 485.5, 718.822 )
+texture = ExtResource( 27 )
+
+

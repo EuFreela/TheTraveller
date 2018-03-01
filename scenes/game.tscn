@@ -1,0 +1,235 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://tilesets/ts-jungle.tres" type="TileSet" id=1]
+[ext_resource path="res://scripts/player.gd" type="Script" id=2]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-1.png" type="Texture" id=3]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-2.png" type="Texture" id=4]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-3.png" type="Texture" id=5]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-4.png" type="Texture" id=6]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-5.png" type="Texture" id=7]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-6.png" type="Texture" id=8]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-7.png" type="Texture" id=9]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_idle_anim/spr_m_traveler_idle_anim-8.png" type="Texture" id=10]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-1.png" type="Texture" id=11]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-2.png" type="Texture" id=12]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-3.png" type="Texture" id=13]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-4.png" type="Texture" id=14]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-5.png" type="Texture" id=15]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-6.png" type="Texture" id=16]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-7.png" type="Texture" id=17]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_walk_anim/spr_m_traveler_walk_anim-8.png" type="Texture" id=18]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_duck_anim/spr_m_traveler_duck_anim-1.png" type="Texture" id=19]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_duck_anim/spr_m_traveler_duck_anim-2.png" type="Texture" id=20]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_duck_anim/spr_m_traveler_duck_anim-3.png" type="Texture" id=21]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_duck_anim/spr_m_traveler_duck_anim-4.png" type="Texture" id=22]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_jump_2midair_anim/spr_m_traveler_jump_2midair_anim-1.png" type="Texture" id=23]
+[ext_resource path="res://assets/tileset/humans/traveller/spr_m_traveler_jump_2midair_anim/spr_m_traveler_jump_2midair_anim-2.png" type="Texture" id=24]
+[ext_resource path="res://assets/tileset/clouds/bg_cloud01.png" type="Texture" id=25]
+[ext_resource path="res://assets/tileset/clouds/bg_cloud01-vector.png" type="Texture" id=26]
+[ext_resource path="res://assets/tileset/clouds/80.png" type="Texture" id=27]
+[ext_resource path="res://assets/tileset/clouds/bg_cloud2.png" type="Texture" id=28]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=3]
+
+animations = [ {
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+
+animations = [ {
+"frames": [ ExtResource( 23 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 16.3144, 27.6331 )
+
+[node name="game" type="Node" index="0"]
+
+[node name="tileMap" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 96, 38 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 524303, 25, 0, 720895, 25, 0, 786439, 24, 0, 786442, 25, 0, 917513, 16, 0, 983042, 20, 0, 983043, 20, 0, 983053, 19, 0, 983056, 19, 0, 983057, 20, 0, 983058, 20, 0, 983059, 20, 0, 1114111, 20, 0, 1048576, 20, 0, 1048577, 20, 0, 1048580, 18, 0, 1114120, 19, 0, 1114126, 14, 0, 1179654, 17, 0, 1245194, 0, 0, 1245195, 1, 0, 1245196, 1, 0, 1310726, 22, 0, 1310727, 22, 0, 1310728, 22, 0, 1310729, 22, 0, 1310733, 13, 0, 1310734, 13, 0, 1310735, 13, 0, 1310736, 13, 0, 1310737, 13, 0, 1310738, 13, 0, 1310739, 13, 0, 1376258, 22, 0, 1376259, 22, 0, 1376260, 22, 0, 1376261, 22, 0, 1376269, 13, 0, 1376270, 13, 0, 1376271, 13, 0, 1507327, 22, 0, 1441792, 22, 0, 1441793, 22, 0, 1441805, 13, 0, 1441806, 13, 0, 1441807, 13, 0, 1572863, 22, 0, 1507341, 13, 0, 1507342, 13, 0, 1507343, 13, 0, 1572874, 13, 0, 1572875, 13, 0, 1572876, 13, 0, 1572877, 13, 0, 1572878, 13, 0, 1572879, 13, 0, 1638416, 13, 0, 1638417, 13, 0, 1638418, 13, 0, 1638419, 13, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="player" type="KinematicBody2D" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( 544.292, 362.921 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 2 )
+_sections_unfolded = [ "Collision", "Pickable", "Transform", "Z Index", "collision" ]
+
+[node name="cam" type="Camera2D" parent="player" index="0"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 0.7, 0.7 )
+limit_left = 0
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+_sections_unfolded = [ "Limit", "Material", "Offset", "Pause", "Smoothing", "Visibility" ]
+
+[node name="idle" type="AnimatedSprite" parent="player" index="1"]
+
+frames = SubResource( 1 )
+animation = "default"
+frame = 4
+playing = true
+
+[node name="walk" type="AnimatedSprite" parent="player" index="2"]
+
+visible = false
+frames = SubResource( 2 )
+animation = "default"
+frame = 5
+playing = true
+_sections_unfolded = [ "Material", "Visibility" ]
+
+[node name="duck" type="AnimatedSprite" parent="player" index="3"]
+
+visible = false
+frames = SubResource( 3 )
+animation = "default"
+frame = 2
+
+[node name="jump" type="AnimatedSprite" parent="player" index="4"]
+
+visible = false
+frames = SubResource( 4 )
+animation = "default"
+
+[node name="shape" type="CollisionShape2D" parent="player" index="5"]
+
+position = Vector2( 0.482971, 2.13614 )
+shape = SubResource( 5 )
+
+[node name="objects" type="Node2D" parent="." index="2"]
+
+[node name="Sprite2" type="Sprite" parent="objects" index="0"]
+
+visible = false
+position = Vector2( 960.797, 617.83 )
+scale = Vector2( 2.90753, 2.58414 )
+texture = ExtResource( 25 )
+
+[node name="clouds" type="ParallaxBackground" parent="." index="3"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = false
+
+[node name="layer" type="ParallaxLayer" parent="clouds" index="0"]
+
+motion_scale = Vector2( 0.5, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 0, 0 )
+_sections_unfolded = [ "Motion" ]
+
+[node name="cloud" type="Sprite" parent="clouds/layer" index="0"]
+
+visible = false
+position = Vector2( 1821.45, 564.231 )
+scale = Vector2( 6.89998, 6.27173 )
+texture = ExtResource( 26 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="cloud2" type="Sprite" parent="clouds/layer" index="1"]
+
+position = Vector2( 328.677, 77.6606 )
+scale = Vector2( 1.6001, 1.53623 )
+texture = ExtResource( 26 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="cloud3" type="Sprite" parent="clouds/layer" index="2"]
+
+position = Vector2( 1369.47, 420.715 )
+scale = Vector2( 2.51659, 2.00984 )
+texture = ExtResource( 25 )
+_sections_unfolded = [ "Animation", "Material", "Offset", "Region", "Transform", "Visibility" ]
+
+[node name="cloud4" type="Sprite" parent="clouds/layer" index="3"]
+
+position = Vector2( 2116.88, -0.0301208 )
+scale = Vector2( 1.79118, 1.5179 )
+texture = ExtResource( 27 )
+_sections_unfolded = [ "Animation", "Material", "Offset", "Region", "Transform", "Visibility" ]
+
+[node name="cloud5" type="Sprite" parent="clouds/layer" index="4"]
+
+position = Vector2( 3156.77, 349.037 )
+scale = Vector2( 1.79118, 1.5179 )
+texture = ExtResource( 28 )
+_sections_unfolded = [ "Animation", "Material", "Offset", "Region", "Transform", "Visibility" ]
+
+

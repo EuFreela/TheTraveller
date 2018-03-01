@@ -4,13 +4,16 @@
 Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Bermudas é lançado para outras dimensões. Em outros mundos, Traveller cria amigos e os ajuda a desvendar mistérios e a salvar outros animais.
 
 #### Os assets que tenho usado são open pixel e os autores são uma distribuidora de assets para games.
-#### Existem 3 tiles para o projeto open pixel entitulados de jungle e villarage. Neste projeto The Traveller - The Adventure of Jungle, estou usando os tiles de Jungle entre outros free para não identificar-se muito com o projeto da open pixel.
+#### Existem 3 tiles para o projeto open pixel entitulados de jungle e villarage. Neste projeto The Traveller - The Adventure in Jungle, estou usando os tiles de Jungle entre outros free para não identificar-se muito com o projeto da open pixel.
 
 #### Estou desenvolvendo ao poucos conforme o tempo
 
+================================================================================================================================================
+================================================================================================================================================
 
 #### Game: The Traveller
 #### Pseudo: O Viajante do Tempo
+#### Título: The Adventure in Jungle
 #### Estilo: Plataforma
 
 ## <p>Neste protótipo foram realizados:</p>
@@ -26,10 +29,12 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
   <li>1. Criação da floresta</li>
   <li>2. Inserção de inimigos</li>
 </o>
+================================================================================================================================================
+================================================================================================================================================
 
 <br><br>
 <img src="https://s18.postimg.org/ydp6mtxhl/Sem-_T_tulo-1.png" width="250" height="350">
-
+<img src="https://s18.postimg.org/uvi8nnxt5/jungl.png" width="250" height="350">
 <br><br>
 <img src="https://s18.postimg.org/6b17fvazt/image.png" width="600" height="350">
 <img src="https://s18.postimg.org/5y9t9mnk9/image.png" width="900" height="300">
