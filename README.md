@@ -46,9 +46,9 @@ Traveller é pequeno gambá e piloto de avião que ao cruzar o triangulo das Ber
 <hr>
 
 <br>
-<p style="text-align:center;"><img src="https://s18.postimg.org/ydp6mtxhl/Sem-_T_tulo-1.png" width="250" height="350" align="middle"></p>
+<p style="text-align:center;"><img src="https://s18.postimg.cc/ydp6mtxhl/Sem-_T_tulo-1.png" width="250" height="350" align="middle"></p>
 <br><br>
-<img src="https://s18.postimg.org/uvi8nnxt5/jungl.png" width="700" height="350"  align="center">
+<img src="https://s18.postimg.cc/uvi8nnxt5/jungl.png" width="700" height="350"  align="center">
 <br><br>
-<img src="https://s18.postimg.org/6b17fvazt/image.png" width="650" height="350"  align="center">
-<img src="https://s18.postimg.org/5y9t9mnk9/image.png" width="900" height="300"  align="center">
+<img src="https://s18.postimg.cc/6b17fvazt/image.png" width="650" height="350"  align="center">
+<img src="https://s18.postimg.cc/5y9t9mnk9/image.png" width="900" height="300"  align="center">
